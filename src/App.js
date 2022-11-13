@@ -10,11 +10,11 @@ function App() {
 
   const [listadoState, setListadoState] = useState([]);
 
-  const [peliState, setPeliState] = useState({
+/*   const [peliState, setPeliState] = useState({
     id: '',
     titulo: '',
     descripcion: ''
-  });
+  }); */
 
   return (
     <div className="layout">
@@ -47,4 +47,3 @@ function App() {
 
 export default App;
 
-  {/*Voy por la clase 83 empezando*/}
